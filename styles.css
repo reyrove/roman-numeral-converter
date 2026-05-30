@@ -5,16 +5,20 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #1a1a2e;
 }
 
 .container {
     text-align: center;
     padding: 20px;
-    border: 2px solid #ccc;
-    background-color: #fff;
+    border: 2px solid #ff8c42;
+    background-color: #2d2d2d;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #ff8c42;
 }
 
 input {
@@ -22,25 +26,40 @@ input {
     font-size: 16px;
     width: 200px;
     margin: 10px 0;
+    background-color: #3d3d3d;
+    border: 1px solid #ff8c42;
+    color: #e0e0e0;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ffaa66;
+    box-shadow: 0 0 5px rgba(255, 140, 66, 0.3);
+}
+
+input::placeholder {
+    color: #888;
 }
 
 button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #ff8c42;
+    color: #1a1a2e;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #ffaa66;
 }
 
 #output {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
-    color: #d9534f;
+    color: #ffaa66;
 }
