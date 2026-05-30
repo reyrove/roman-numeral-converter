@@ -79,3 +79,7 @@ You can modify the `styles.css` file to change:
 ## License
 
 MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+This project was built as part of my learning journey with freeCodeCamp. The requirements and concept are based on their JavaScript Algorithms and Data Structures certification.
