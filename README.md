@@ -78,4 +78,4 @@ You can modify the `styles.css` file to change:
 
 ## License
 
-This project is open source and available for personal and educational use.
+MIT License - see the LICENSE file for details.
